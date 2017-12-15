@@ -1,0 +1,101 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+.toast {
+	align-items: flex-start;
+	border-radius: 4px;
+	color: #ffffff;
+	display: flex;
+	padding: 12px;
+}
+
+.toast:not(:last-child) {
+	margin: 0 0 12px;
+}
+
+.toast_content {
+	flex: 1 1 auto;
+	margin: 0 12px 0 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	background-color: #f6fffc;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 5px;
+	border-color: #7cbfa8;
+	color: #7cbfa8;
+	padding: 13px;
+	font-size: 15px;
+	margin-top: 7px;
+}
+
+.toasts {
+	bottom: 750px;
+	position: fixed;
+	right: 50px;
+	width: 600px;
+}
+
+.card {
+	box-shadow: 0 3px 8px 0 #cecfd4;
+	transition: 0.3s;
+	border-radius: 5px;
+}
+
+.tasks_title {
+	color: #2d3e4f;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.add_task_button {
+	color: white;
+	background-color: #90a1b3;
+	margin-right: 5px;
+	padding: 10px;
+	font-size: 18px;
+}
+
+.add_tasks_and_save {
+	margin-bottom: 30px;
+	margin-top: 20px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.save_button {
+	color: white;
+	background-color: #59c597;
+	padding: 10px;
+	font-size: 18px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.input_component {
+	outline: none;
+	border: none;
+	color: #aaafb4;
+	font-size: 16px;
+}
+
+.card_styles {
+	height: 200px;
+	margin-top: 10px;
+}
+
+.trash_can_styles {
+	color: #aaafb4;
+	font-size: 24px;
+	margin-right: 10px;
+}
+
+.navbar_styles {
+	background-color: #2d3e4f;
+	height: 55px;
+}
+
+.app_styles {
+	background-color: #f5f7f9;
+}
